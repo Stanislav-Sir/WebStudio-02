@@ -1,0 +1,368 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    margin-left: 215px;
+    white-space: nowrap;
+    position: relative;
+    top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.menu {
+    margin-top: 0px;
+    margin-right: 344px;
+    margin-left: 93px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.logo1 {
+    color: #2196F3;
+    font-size: 26px;
+    margin-top: -8px;
+}
+
+.logo2 {
+    color: black;
+    font-size: 26px;
+    margin-top: -8px;
+}
+
+.menu a {
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #212121;
+    left: 453px;
+    transition: 1.3s ease-in-out;
+}
+
+
+li {
+    display: inline;
+    margin-right: 20px;
+    left: 453px;
+}
+
+li.menu-item {
+    margin: 0 0 50px 0;
+}
+
+.menu a:hover {
+    color: #2196F3;
+}
+
+.a1 {
+    color: #2196F3;
+    text-decoration: none;
+    margin-right: 32px;
+    font-size: 14px;
+}
+
+.tel {
+    color: #acacac;
+    text-decoration: none;
+    font-size: 14px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: table;
+    text-align: center;
+    margin-top: 32px;
+    width: 1600px;
+    height: 600px;
+    background-image: url(shapka.png);
+}
+
+.big_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 45px;
+    font-size: 44px;
+    color: #FFFFFF;
+}
+
+.t9999 {
+    text-align: center;
+    display: inline-block;
+    width: 216px;
+    height: 50px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    background-color: #2196F3;
+    transition: 1.5s ease-in-out;
+}
+.t9999:hover{
+    transform: scale(1.08);
+}
+
+.menu-photo{
+    margin-top: 93px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+.name {
+    font-size: 14px;
+    color: #212121;
+}
+
+.ab {
+    font-size: 16px;
+    color: #757575;
+}
+
+.main {
+    justify-content: center;
+    display: flex;
+    margin-top: 93px;
+    gap: 35px;
+}
+.block {
+    display: flex;
+    justify-content: center;
+    margin-top: 94px;
+    color: #212121;
+    font-size: 36px;
+}
+
+.photos {
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+.container2{
+    display: flex;
+    margin-top: 94px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    width: 1600px;
+    height: 708px;
+    background: #F5F4FA;
+
+}
+
+
+
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.team-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Картка */
+.team-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 270px;
+    height: 428px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Фото */
+.team-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Ім'я та посада */
+.team-card h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+}
+
+.team-card p {
+    color: #666;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+
+.social-icons {
+    
+    margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 15px;
+}
+.social__icon{
+    width: 20px;
+    height: 20px;
+    transition: 1s ease-in-out;
+}
+.social__icon:hover{
+    fill: #2196F3;
+}
+.df{
+    width: 1440px;
+    height: 300px;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.client{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    width: 1600px;
+    height: 252px;
+    background: #2F303A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.df{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.con{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+gap: 1px;
+
+}
+.p{
+    color: #acacac;
+    font-size: 14px;
+}
+.websd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1px;
+}
+.pa{
+    color: #fff;
+    font-size: 14px;
+}
+.df1{
+    display: flex;
+    gap: 1px;
+}
+.logo3{
+    color: #fff;
+}
+.img{
+    display: flex;
+    gap: 5px;
+    width: 30px;
+    height: 30px;
+}
+h4{
+    color: #fff;
+    font-size: 12px;
+}
+.social_icon{
+    width: 30px;
+    height: 30px;
+    fill:#fff;
+}
+.join{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+
+
+  
+  .email-input {
+    width: 100%;
+    padding: 10px 15px; 
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #ffffff; 
+    background-color:#2F303A ; 
+    border: 1px solid #8a8a8a; 
+    border-radius: 5px; 
+    outline: none; 
+  }
+  
+  .email-input::placeholder {
+    color: #8a8a8a; 
+  }
+  
+  .email-input:focus {
+    border-color: #ffffff; 
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .t999{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2196F3;
+    text-align: center;
+    display: inline-block;
+    width: 230px;
+    height: 30px;
+    padding: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  .f{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
